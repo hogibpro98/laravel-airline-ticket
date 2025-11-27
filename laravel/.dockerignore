@@ -1,0 +1,39 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Laravel specific
+/.env
+/.env.backup
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+/coverage/
+/.phpunit.cache
+
+# Build artifacts
+/public/hot
+/public/storage
+/public/build
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Docker
+docker-compose.override.yml
+*.log
