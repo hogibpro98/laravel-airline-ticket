@@ -74,7 +74,7 @@ docker-compose exec laravel php artisan view:cache
 
 - **Laravel API**: http://localhost
 - **PostgreSQL**: localhost:5432
-- **Redis**: localhost:6379
+- **Redis**: vv:6379
 
 ### Các lệnh thường dùng
 
